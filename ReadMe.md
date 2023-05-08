@@ -10,4 +10,9 @@ Tuto Symfony 5
 ## Commandes ##
 
 - Création du projet  
-    `symfony new . --version="5.4.*" --webapp`
+    `symfony new . --version="5.4.*" --webapp`  
+- Mise en route du serveur symfony  
+    `symfony serve --port=8081`
+- Création du controller Home  
+    `symfony console make:controller Home`
+- Utilisation d'un thème [Bootstrap](https://getbootstrap.com/docs/5.3/examples/carousel/)
