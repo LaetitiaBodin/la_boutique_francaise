@@ -23,8 +23,7 @@ Tuto Symfony 5
 - Création de l'entity User (utilisation du composant **security** de Symfony)  
     `symfony console make:User`  
   &nbsp;
-  ![Création de l'entity User](/ReadMe/01_creation-de-l-entity-User.png)  
-  &nbsp;
+  ![Création de l'entity User](/ReadMe/01_creation-de-l-entity-User.png)
 - Création de la base de données
     - Modification du fichier `.env` : `DATABASE_URL="mysql://root:@127.0.0.1:3306/la_boutique_francaise?serverVersion=8&charset=utf8mb4"`
     - `symfony console doctrine:database:create`  
@@ -33,4 +32,20 @@ Tuto Symfony 5
     `symfony console make:migration`  
   &nbsp;
 - Exécution de la migration de l'entity User  
-    `symfony console doctrine:migrations:migrate`
+    `symfony console doctrine:migrations:migrate`  
+  &nbsp;
+- Création du controller Register  
+    `symfony console make:controller Register`  
+  &nbsp;
+- Création du formulaire d'inscription  
+    - `symfony console make:form Register`  
+  &nbsp;
+  ![Création du formulaire d'inscription](/ReadMe/02_creation_du_formulaire_d_inscription.png)
+    - Utilisation d'un [thème](https://symfony.com/doc/5.4/form/form_themes.html) pour le composant **form**
+    Modification du fichier `config/packages/twig.yaml`
+    - Ajout de champs à l'entity User  
+    `symfony console make:entity User`  
+  &nbsp;
+  ![MAJ de l'entity User](/ReadMe/03_maj_de_l_entity_User.png)
+  - [Typage](https://symfony.com/doc/5.4/reference/forms/types.html) des inputs du formulaire et personnalisation des labels  
+  - Enregistrement des données du formulaire dans la table user
