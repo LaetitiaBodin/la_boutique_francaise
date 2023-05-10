@@ -62,5 +62,8 @@ Tuto Symfony 5
   &nbsp;
 - Création du controller Account  
     - `symfony console make:controller Account`  
-    - Mise à jour de fichiers liés au controller (vues + redirection)
+    - Mise à jour de fichiers liés au controller (vues + redirection)  
   &nbsp;
+- Mise à jour de la navbar grâce à la fonction [`path`](https://symfony.com/doc/current/reference/twig_reference.html#path)  
+  &nbsp;
+- Redirection : modification du fichier `SecurityController`. La page *connexion* n'est plus accessible si l'utilisateur est déjà connecté  
