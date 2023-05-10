@@ -23,4 +23,14 @@ Tuto Symfony 5
 - Création de l'entity User (utilisation du composant **security** de Symfony)  
     `symfony console make:User`  
   &nbsp;
-  ![Création de l'entity User](/ReadMe/01_creation-de-l-entity-User.png)
+  ![Création de l'entity User](/ReadMe/01_creation-de-l-entity-User.png)  
+  &nbsp;
+- Création de la base de données
+    - Modification du fichier `.env` : `DATABASE_URL="mysql://root:@127.0.0.1:3306/la_boutique_francaise?serverVersion=8&charset=utf8mb4"`
+    - `symfony console doctrine:database:create`  
+  &nbsp;
+- Création de la migration de l'entity User  
+    `symfony console make:migration`  
+  &nbsp;
+- Exécution de la migration de l'entity User  
+    `symfony console doctrine:migrations:migrate`
