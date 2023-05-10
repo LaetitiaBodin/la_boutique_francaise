@@ -67,3 +67,9 @@ Tuto Symfony 5
 - Mise à jour de la navbar grâce à la fonction [`path`](https://symfony.com/doc/current/reference/twig_reference.html#path)  
   &nbsp;
 - Redirection : modification du fichier `SecurityController`. La page *connexion* n'est plus accessible si l'utilisateur est déjà connecté  
+  &nbsp;
+- Création du controller AccountPasswordController  
+    - `symfony console make:controller AccountPassword`  
+    - Réorganisation des fichiers générés  
+    - Création d'un formulaire de modification du mot de passe  
+    `symfony console make:form ChangePassword`
