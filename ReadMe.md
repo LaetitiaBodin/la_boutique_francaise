@@ -52,3 +52,5 @@ Tuto Symfony 5
   - Cryptage du mot de passe  
   Injection de la dépendance `UserPasswordEncoderInterface` dans le `RegisterController`  
   - Ajout de [contraintes](https://symfony.com/doc/5.4/validation.html#constraints) au formulaire  
+  &nbsp;
+- Changement de la langue locale dans le fichier `config/packages/translation.yaml`  
