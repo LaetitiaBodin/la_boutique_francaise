@@ -167,10 +167,23 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Votre recherche" aria-label="Recherche">
-                    <button class="btn btn-outline-success" type="submit">Rechercher</button>
-                </form>
+                <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                    {% if app.user %}
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Mon compte</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Déconnexion</a>
+                        </li>
+                    {% else %}
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Connexion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inscription</a>
+                        </li>
+                    {% endif %}
+                </ul>
             </div>
         </div>
     </nav>

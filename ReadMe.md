@@ -58,4 +58,9 @@ Tuto Symfony 5
 - Création de l'authentificateur de connexion  
   `symfony console make:auth`  
   &nbsp;
-  ![Création de l'authentificateur](/ReadMe/04_creation_de_l_authentificateur.png)
+  ![Création de l'authentificateur](/ReadMe/04_creation_de_l_authentificateur.png)  
+  &nbsp;
+- Création du controller Account  
+    - `symfony console make:controller Account`  
+    - Mise à jour de fichiers liés au controller (vues + redirection)
+  &nbsp;
