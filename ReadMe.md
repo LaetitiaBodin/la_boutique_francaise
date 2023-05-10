@@ -50,4 +50,5 @@ Tuto Symfony 5
   - [Typage](https://symfony.com/doc/5.4/reference/forms/types.html) des inputs du formulaire et personnalisation des labels  
   - Enregistrement des données du formulaire dans la table user  
   - Cryptage du mot de passe  
-  Injection de la dépendance `UserPasswordEncoderInterface` dans le `RegisterController`
+  Injection de la dépendance `UserPasswordEncoderInterface` dans le `RegisterController`  
+  - Ajout de [contraintes](https://symfony.com/doc/5.4/validation.html#constraints) au formulaire  
