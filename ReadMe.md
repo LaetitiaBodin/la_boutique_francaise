@@ -48,4 +48,6 @@ Tuto Symfony 5
   &nbsp;
   ![MAJ de l'entity User](/ReadMe/03_maj_de_l_entity_User.png)
   - [Typage](https://symfony.com/doc/5.4/reference/forms/types.html) des inputs du formulaire et personnalisation des labels  
-  - Enregistrement des données du formulaire dans la table user
+  - Enregistrement des données du formulaire dans la table user  
+  - Cryptage du mot de passe  
+  Injection de la dépendance `UserPasswordEncoderInterface` dans le `RegisterController`
