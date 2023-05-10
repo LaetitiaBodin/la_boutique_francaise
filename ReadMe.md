@@ -54,3 +54,8 @@ Tuto Symfony 5
   - Ajout de [contraintes](https://symfony.com/doc/5.4/validation.html#constraints) au formulaire  
   &nbsp;
 - Changement de la langue locale dans le fichier `config/packages/translation.yaml`  
+  &nbsp;
+- Création de l'authentificateur de connexion  
+  `symfony console make:auth`  
+  &nbsp;
+  ![Création de l'authentificateur](/ReadMe/04_creation_de_l_authentificateur.png)
