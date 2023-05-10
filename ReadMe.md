@@ -16,7 +16,7 @@ Tuto Symfony 5
 - Création du controller Home  
     `symfony console make:controller Home`
 - Utilisation d'un thème [Bootstrap](https://getbootstrap.com/docs/5.3/examples/carousel/)  
-  - Création de l'entity User (utilisation du composant **security** de Symfony)  
-      `symfony console make:User`  
-    &nbsp;  
-    ![Création de l'entity User](/ReadMe/01_creation-de-l-entity-User.png)
+- Création de l'entity User (utilisation du composant **security** de Symfony)  
+    `symfony console make:User`  
+  &nbsp;  
+  ![Création de l'entity User](/ReadMe/01_creation-de-l-entity-User.png)
