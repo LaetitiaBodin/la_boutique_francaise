@@ -41,7 +41,7 @@ Tuto Symfony 5
     - `symfony console make:form Register`  
   &nbsp;
   ![Création du formulaire d'inscription](/ReadMe/02_creation_du_formulaire_d_inscription.png)
-    - Utilisation d'un [thème](https://symfony.com/doc/5.4/form/form_themes.html) pour le composant **form**
+    - Utilisation d'un [thème](https://symfony.com/doc/5.4/form/form_themes.html) pour le composant **form**.  
     Modification du fichier `config/packages/twig.yaml`
     - Ajout de champs à l'entity User  
     `symfony console make:entity User`  
