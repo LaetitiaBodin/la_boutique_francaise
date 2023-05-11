@@ -72,4 +72,6 @@ Tuto Symfony 5
     - `symfony console make:controller AccountPassword`  
     - Réorganisation des fichiers générés  
     - Création d'un formulaire de modification du mot de passe  
-    `symfony console make:form ChangePassword`
+    `symfony console make:form ChangePassword`  
+  &nbsp;
+- Mise à jour du CSS  
