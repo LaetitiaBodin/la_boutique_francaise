@@ -75,3 +75,17 @@ Tuto Symfony 5
     `symfony console make:form ChangePassword`  
   &nbsp;
 - Mise à jour du CSS  
+  &nbsp;
+- Installation du bundle [EasyAdmin](https://symfony.com/bundles/EasyAdminBundle/3.x/index.html)  
+  `composer require easycorp/easyadmin-bundle`  
+  &nbsp;
+- Création du dashboard  
+  `symfony console make:admin:dashboard`  
+  &nbsp;
+  ![Création du dashboard EasyAdmin](/ReadMe/05_creation_du_dashboard_EasyAdmin.png)  
+  &nbsp;
+- Création du CRUD  
+  `symfony console make:admin:crud`  
+  &nbsp;
+  ![Création du CRUD](/ReadMe/06_creation_du_crud_EasyAdmin.png)  
+  &nbsp;
