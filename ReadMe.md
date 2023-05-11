@@ -92,6 +92,13 @@ Tuto Symfony 5
 - Création de l'entity Category  
     `symfony console make:entity Category`  
   &nbsp;
-  ![Création de l'entity Category](/ReadMe/01_creation-de-l-entity-User.png)  
+  ![Création de l'entity Category](/ReadMe/07_creation_de_l_entity_Category.png)  
+  &nbsp;  
   `symfony console make:migration`  
-  `symfony console doctrine:migrations:migrate`
+  `symfony console doctrine:migrations:migrate`  
+  &nbsp;  
+- Mise à jour du CRUD  
+  `symfony console make:admin:crud`  
+  &nbsp;  
+  ![MAJ du CRUD](/ReadMe/08_maj_du_crud.png)  
+  &nbsp;  
