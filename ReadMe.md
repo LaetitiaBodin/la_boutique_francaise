@@ -118,3 +118,5 @@ Tuto Symfony 5
   &nbsp;  
   ![MAJ du CRUD](/ReadMe/10_maj_du_crud.png)  
   &nbsp;
+- Insertion des produits via `EasyAdmin`  
+  &nbsp;  
