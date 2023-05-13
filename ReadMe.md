@@ -112,3 +112,9 @@ Tuto Symfony 5
   ![Création de l'entity Product-e](/ReadMe/09e_creation_de_l_entity_Product.png)  
   `symfony console make:migration`  
   `symfony console doctrine:migrations:migrate`  
+  &nbsp;  
+- Mise à jour du CRUD  
+  `symfony console make:admin:crud`  
+  &nbsp;  
+  ![MAJ du CRUD](/ReadMe/10_maj_du_crud.png)  
+  &nbsp;
