@@ -120,3 +120,7 @@ Tuto Symfony 5
   &nbsp;
 - Insertion des produits via `EasyAdmin`  
   &nbsp;  
+- Création du controller Product  
+    `symfony console make:controller Product`  
+    - Création de la vue avec tous les produits  
+    - Création de la vue pour un seul produit
