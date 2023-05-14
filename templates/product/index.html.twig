@@ -3,18 +3,29 @@
 {% block title %}La Boutique Française - Nos Produits{% endblock %}
 
 {% block content %}
-    <h1>Nos produits</h1>
 
-    <div class="row mb-5">
-        {% for produit in produits %}
-            <div class="col-md-4">
-                <div class="product-item text-center">
-                    <img src="/uploads/{{ produit.illustration }}" alt="{{ produit.name }}" class="img-fluid"/>
-                    <h2 class="h5 text-uppercase">{{ produit.name }}</h2>
-                    <p>{{ produit.subtitle }}</p>
-                    <p>{{ (produit.price / 100) | number_format(2, ',') }}&nbsp;€</p>
-                </div>
+    <div class="row">
+        <div class="col-md-3">
+            <h2>Filtrer</h2>
+            {{ form(formulaire) }}
+        </div>
+        <div class="col-md-9">
+            <div class="row mb-5">
+                <h1>Nos produits</h1>
+                {% for produit in produits %}
+                    <div class="col-md-4">
+                        <div class="product-item text-center">
+                            <a href="{{ path('app_product', { 'slug': produit.slug}) }}">
+                                <img src="/uploads/{{ produit.illustration }}" alt="{{ produit.name }}" class="img-fluid"/>
+                            </a>
+                            <h2 class="h5 text-uppercase">{{ produit.name }}</h2>
+                            <p>{{ produit.subtitle }}</p>
+                            <p>{{ (produit.price / 100) | number_format(2, ',') }}&nbsp;€</p>
+                        </div>
+                    </div>
+                {% endfor %}
             </div>
-        {% endfor %}
+        </div>
     </div>
+
 {% endblock %}

@@ -125,4 +125,6 @@ Tuto Symfony 5
     - Création de la vue avec tous les produits  
     - Création de la vue pour un seul produit  
   &nbsp;  
-- Correction du CSS
+- Correction du CSS  
+  &nbsp;  
+- Création du filtre de recherche
