@@ -123,4 +123,6 @@ Tuto Symfony 5
 - Création du controller Product  
     `symfony console make:controller Product`  
     - Création de la vue avec tous les produits  
-    - Création de la vue pour un seul produit
+    - Création de la vue pour un seul produit  
+  &nbsp;  
+- Correction du CSS
